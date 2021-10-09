@@ -1,0 +1,11 @@
+Filled container:
+Container contains 9 elements.
+0: It is tree: age = 1, name = tree_aioeuy. CountExpr = 0.727273
+1: It is tree: age = 10000, name = tree_mqwrtpsdfghjklzxcvbn. CountExpr = 0.08
+2: It is shrub: flowering season = october, name = shrub_aioeuy. CountExpr = 0.583333
+3: It is shrub: flowering season = november, name = shrub_aioeuymqwrtpsdfghjklzxcvbn. CountExpr = 0.21875
+4: It is shrub: flowering season = december, name = shrub_mqwrtpsdfghjklzxcvbn. CountExpr = 0.0384615
+5: It is shrub: flowering season = Invalid month number!, name = shrub_aboba. CountExpr = 0.363636
+6: It is flower: flower type = wild, name = flower_aioeuymqwrtpsdfghjklzxcvbn. CountExpr = 0.242424
+7: It is flower: flower type = Invalid place number!, name = flower_mqwrtpsdfghjklzxcvbn. CountExpr = 0.0740741
+8: It is flower: flower type = Invalid place number!, name = flower_aioeuy. CountExpr = 0.615385

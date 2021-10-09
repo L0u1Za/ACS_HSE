@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nigoluiza/studies/AVS/container.cpp
+container.h
+/home/nigoluiza/studies/AVS/container.h
+
+/home/nigoluiza/studies/AVS/container.h
+shape.h
+/home/nigoluiza/studies/AVS/shape.h
+
+/home/nigoluiza/studies/AVS/main.cpp
+iostream
+-
+fstream
+-
+cstdlib
+-
+ctime
+-
+cstring
+-
+container.h
+/home/nigoluiza/studies/AVS/container.h
+

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/nigoluiza/studies/AVS/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -std=gnu++17 -o CMakeFiles/HomeWork1.dir/flower.cpp.o -c /home/nigoluiza/studies/AVS/flower.cpp",
+  "file": "/home/nigoluiza/studies/AVS/flower.cpp"
+},
+{
+  "directory": "/home/nigoluiza/studies/AVS/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -std=gnu++17 -o CMakeFiles/HomeWork1.dir/shrub.cpp.o -c /home/nigoluiza/studies/AVS/shrub.cpp",
+  "file": "/home/nigoluiza/studies/AVS/shrub.cpp"
+},
+{
+  "directory": "/home/nigoluiza/studies/AVS/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -std=gnu++17 -o CMakeFiles/HomeWork1.dir/tree.cpp.o -c /home/nigoluiza/studies/AVS/tree.cpp",
+  "file": "/home/nigoluiza/studies/AVS/tree.cpp"
+},
+{
+  "directory": "/home/nigoluiza/studies/AVS/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -std=gnu++17 -o CMakeFiles/HomeWork1.dir/plant.cpp.o -c /home/nigoluiza/studies/AVS/plant.cpp",
+  "file": "/home/nigoluiza/studies/AVS/plant.cpp"
+},
+{
+  "directory": "/home/nigoluiza/studies/AVS/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -std=gnu++17 -o CMakeFiles/HomeWork1.dir/container.cpp.o -c /home/nigoluiza/studies/AVS/container.cpp",
+  "file": "/home/nigoluiza/studies/AVS/container.cpp"
+},
+{
+  "directory": "/home/nigoluiza/studies/AVS/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -std=gnu++17 -o CMakeFiles/HomeWork1.dir/main.cpp.o -c /home/nigoluiza/studies/AVS/main.cpp",
+  "file": "/home/nigoluiza/studies/AVS/main.cpp"
+}
+]
