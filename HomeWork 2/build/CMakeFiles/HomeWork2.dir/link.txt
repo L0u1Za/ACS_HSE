@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/HomeWork2.dir/flower.cpp.o CMakeFiles/HomeWork2.dir/shrub.cpp.o CMakeFiles/HomeWork2.dir/tree.cpp.o CMakeFiles/HomeWork2.dir/plant.cpp.o CMakeFiles/HomeWork2.dir/container.cpp.o CMakeFiles/HomeWork2.dir/main.cpp.o  -o ../bin/HomeWork2 

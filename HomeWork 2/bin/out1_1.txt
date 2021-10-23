@@ -1,0 +1,5 @@
+Filled container:
+Container contains 3 elements.
+0: It is tree: age = 32, name = tree_aaaa. CountExpr = 0.666667
+1: It is shrub: flowering season = february, name = shrub_aabb. CountExpr = 0.3
+2: It is flower: flower type = domestic, name = flower_bbbb. CountExpr = 0.181818
