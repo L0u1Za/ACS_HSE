@@ -1,0 +1,102 @@
+Container after sorting:
+Container contains 100 elements.
+0: It is flower: flower type = domestic, name = et|yiizatrcocy{~vixugjav. CountExpr = 0.416667
+1: It is tree: age = 10, name = hiygloufmwczpyghgucjiyam. CountExpr = 0.375
+2: It is shrub: flowering season = may, name = lcmbndayioofgamarpar~opg. CountExpr = 0.375
+3: It is shrub: flowering season = april, name = zi~py|ebrl}dbyxcweloykdu. CountExpr = 0.333333
+4: It is tree: age = 16, name = fi{mu{y~hlaoaggl~b{odrwe. CountExpr = 0.333333
+5: It is tree: age = 4, name = wz|qdx~ataxd{yaaio{a}{|x. CountExpr = 0.333333
+6: It is flower: flower type = garden, name = jj{quqtfxxb}agoom~uk}oao. CountExpr = 0.333333
+7: It is shrub: flowering season = september, name = t~hlno}|aqpyydhaoogpvlan. CountExpr = 0.333333
+8: It is flower: flower type = domestic, name = qzbeufkintixeawvnjnbyobf. CountExpr = 0.333333
+9: It is shrub: flowering season = may, name = ohyaxuxtcvvlellthel}ruel. CountExpr = 0.333333
+10: It is flower: flower type = garden, name = arcmvenmufl}uaaqvxeqnyww. CountExpr = 0.333333
+11: It is shrub: flowering season = october, name = su{orrodqburqjhazeseli~l. CountExpr = 0.333333
+12: It is shrub: flowering season = april, name = oe{neqawrgeu|ehjzxd{jej{. CountExpr = 0.333333
+13: It is shrub: flowering season = december, name = motden~urqdsierlzuny}nrb. CountExpr = 0.291667
+14: It is shrub: flowering season = february, name = vt~oxoz{kirwzd{feaopr|ud. CountExpr = 0.291667
+15: It is shrub: flowering season = february, name = ompnbiazlq{yph~dnmhuteu}. CountExpr = 0.291667
+16: It is tree: age = 10, name = osslzseobfqcaywdwirgzadx. CountExpr = 0.291667
+17: It is shrub: flowering season = september, name = d{wwuoty|iwzkavb|ks}izje. CountExpr = 0.291667
+18: It is tree: age = 13, name = nz{ioxcrsabebc~zealg}b~y. CountExpr = 0.291667
+19: It is flower: flower type = wild, name = gtpiau|}ws{ape{xo}amwghm. CountExpr = 0.291667
+20: It is flower: flower type = domestic, name = dzu{ifbydvnlajoymzf|navb. CountExpr = 0.291667
+21: It is flower: flower type = domestic, name = pev|ejanejfdooevw~fdrbqr. CountExpr = 0.291667
+22: It is flower: flower type = garden, name = oolmgoxpbefoochpcyrfxftv. CountExpr = 0.291667
+23: It is tree: age = 24, name = hbyqyfggae}jodm}izvsgqoc. CountExpr = 0.291667
+24: It is shrub: flowering season = january, name = lgiluqynagiwmdljeb}{~rur. CountExpr = 0.291667
+25: It is shrub: flowering season = june, name = txyclqbm~ln{oulgh|ijqfoy. CountExpr = 0.25
+26: It is shrub: flowering season = january, name = agrwxtru}afrbwdjsylip~ub. CountExpr = 0.25
+27: It is flower: flower type = domestic, name = ogoklt}nt{atocwfxdcbqaba. CountExpr = 0.25
+28: It is shrub: flowering season = june, name = wsu{vgllcaybim|pdxlypoqg. CountExpr = 0.25
+29: It is shrub: flowering season = august, name = ltoxgk|nbatwuoyk{avdgfm~. CountExpr = 0.25
+30: It is tree: age = 0, name = lkowxqogyvwmq|ijhtqato~s. CountExpr = 0.25
+31: It is flower: flower type = domestic, name = onntfbqvekm{~ntyjoqbwbuo. CountExpr = 0.25
+32: It is flower: flower type = wild, name = ralgcrlia~~awsvydg~nbbnu. CountExpr = 0.25
+33: It is tree: age = 28, name = ls{|vubw{eomm~|r|t~u}ouh. CountExpr = 0.25
+34: It is tree: age = 25, name = ohke~ik~kcjdmqcgsxh}saie. CountExpr = 0.25
+35: It is shrub: flowering season = march, name = lbe~lxo{|}on{zobwuedjrvg. CountExpr = 0.25
+36: It is flower: flower type = domestic, name = f~aq~rzaxt}vy|{rpuyittpd. CountExpr = 0.25
+37: It is flower: flower type = wild, name = gpbyvnjfokfjvn|h}ehbstia. CountExpr = 0.208333
+38: It is shrub: flowering season = january, name = vqvsxgtj|dsyj}vluei|yf{{. CountExpr = 0.208333
+39: It is shrub: flowering season = march, name = pabtvjkjyiud|xwwzuf}ccgw. CountExpr = 0.208333
+40: It is tree: age = 27, name = skbalakdp~uf|mchgykpe{{m. CountExpr = 0.208333
+41: It is shrub: flowering season = september, name = redovdg}|dc}untpgnia}flm. CountExpr = 0.208333
+42: It is shrub: flowering season = july, name = uauitzjp|gwkadxpjvqjmntv. CountExpr = 0.208333
+43: It is shrub: flowering season = march, name = pioptqvdcasiyjw}rmhttsfl. CountExpr = 0.208333
+44: It is flower: flower type = garden, name = vwkr}azgwpzmhoja~fsotrox. CountExpr = 0.208333
+45: It is flower: flower type = wild, name = fwfvywt~}}uohtzrmteonkst. CountExpr = 0.208333
+46: It is tree: age = 17, name = hgmml{jzuyotomc~mny~rgzc. CountExpr = 0.208333
+47: It is tree: age = 27, name = koffv{v~xtvkxofjdkat}eyt. CountExpr = 0.208333
+48: It is shrub: flowering season = december, name = dcubna|dvsefgjtsvkpji|a}. CountExpr = 0.208333
+49: It is flower: flower type = wild, name = }|jbp{ounhtzqpebeshcjpet. CountExpr = 0.208333
+50: It is flower: flower type = wild, name = htzsjotcvirmvqxiyjnrfxyh. CountExpr = 0.208333
+51: It is flower: flower type = garden, name = qqrruoeqtc{fzsnkmudnaqtr. CountExpr = 0.208333
+52: It is flower: flower type = domestic, name = wpnwoudagd|fbttwgsy{pj}o. CountExpr = 0.208333
+53: It is shrub: flowering season = may, name = ty{qmzvbajhdudb~pabl~gmz. CountExpr = 0.166667
+54: It is flower: flower type = wild, name = yczfqnptjzxp{vc}v{mqkuei. CountExpr = 0.166667
+55: It is flower: flower type = domestic, name = mescigza{blv~lfqvf~ocjcx. CountExpr = 0.166667
+56: It is tree: age = 22, name = eflm{e~}dyrbwlk{smxvvhap. CountExpr = 0.166667
+57: It is flower: flower type = domestic, name = nkwnhgx{dn{xrtoba}hhoqny. CountExpr = 0.166667
+58: It is flower: flower type = garden, name = scsuj{|yinhlphvqxwawkm~~. CountExpr = 0.166667
+59: It is flower: flower type = domestic, name = sups~hdidfpqptbmt~wa}erm. CountExpr = 0.166667
+60: It is tree: age = 6, name = l}lwhm{ngfyogpnghy|y|zpk. CountExpr = 0.166667
+61: It is shrub: flowering season = january, name = oorwq{sci{vnlpgjpnpvrglu. CountExpr = 0.166667
+62: It is tree: age = 12, name = cnpygdssqwy}m~jdubd}xtyj. CountExpr = 0.166667
+63: It is flower: flower type = garden, name = a|g~cakakphckvbjdakqr|cm. CountExpr = 0.166667
+64: It is shrub: flowering season = march, name = wjjftvbditjefkyot{vlnr~s. CountExpr = 0.166667
+65: It is tree: age = 21, name = itxlz|~axhaqzgmpzqwfdha~. CountExpr = 0.166667
+66: It is shrub: flowering season = july, name = i|svgebxyptcfnvcajhkv|f|. CountExpr = 0.166667
+67: It is tree: age = 8, name = gpkqpae~gawvr~kt{pk~pugz. CountExpr = 0.166667
+68: It is shrub: flowering season = february, name = }vznb}{|hiyvakwfvcjvzgt~. CountExpr = 0.125
+69: It is flower: flower type = domestic, name = r~|m{qjuqjhjurletfwltx{b. CountExpr = 0.125
+70: It is tree: age = 17, name = ~appn||fsbrnbhjnfpznexyt. CountExpr = 0.125
+71: It is flower: flower type = wild, name = yw|mn||}cqz~{|qj}plevs~e. CountExpr = 0.125
+72: It is flower: flower type = garden, name = rmpm|v{~chti{pih~c~|ry~t. CountExpr = 0.125
+73: It is flower: flower type = garden, name = yf|puh|qu{|b}tr~t~t{zmht. CountExpr = 0.125
+74: It is tree: age = 16, name = ~azc~zsfgcrdpbfcrwjyuvsv. CountExpr = 0.125
+75: It is tree: age = 15, name = ffsvksjoifa~nm~|m}{p|tdd. CountExpr = 0.125
+76: It is tree: age = 7, name = fwkt|}h|exvnlwopxjoknhnt. CountExpr = 0.125
+77: It is flower: flower type = wild, name = {rhh}bzskop{wvezgdro|jpt. CountExpr = 0.125
+78: It is shrub: flowering season = november, name = kntgj~gi|h{hkkpgygcte}gt. CountExpr = 0.125
+79: It is tree: age = 24, name = kz|ngrvyj}trxyzkbglozd}r. CountExpr = 0.125
+80: It is tree: age = 20, name = azdrzjvhmrjhhdvtr{vii{z~. CountExpr = 0.125
+81: It is shrub: flowering season = july, name = zmosqjajwahzvrwsxbhlwstx. CountExpr = 0.125
+82: It is shrub: flowering season = january, name = mjbuqahqptc{vxrc|ugr|k}s. CountExpr = 0.125
+83: It is shrub: flowering season = december, name = qzju|wgn}jbjzydq}crbot|n. CountExpr = 0.125
+84: It is flower: flower type = garden, name = hzibgcf}f~ebschb}zpwrf{u. CountExpr = 0.125
+85: It is flower: flower type = domestic, name = xttud}vjsncvnvbjtd{zoojz. CountExpr = 0.125
+86: It is tree: age = 27, name = shetfsgkte}qmgcz~nj{{dfr. CountExpr = 0.0833333
+87: It is tree: age = 24, name = vlmwvmlda}emggth{glxsqpv. CountExpr = 0.0833333
+88: It is flower: flower type = domestic, name = dqo}dtnhq{{hvd{vwl~~kyvh. CountExpr = 0.0833333
+89: It is tree: age = 0, name = npfq}|{qr{dxkstxszysy~gb. CountExpr = 0.0833333
+90: It is shrub: flowering season = april, name = pvxqf}wydxdq|f~x{efvnt~h. CountExpr = 0.0833333
+91: It is flower: flower type = garden, name = ncs}kfhayv}hm~bvrrqdpsmj. CountExpr = 0.0833333
+92: It is tree: age = 28, name = allrrs|vk|xjizkl~snfh~ff. CountExpr = 0.0833333
+93: It is shrub: flowering season = july, name = j|pxdv{q}ljfefkttnsepnvv. CountExpr = 0.0833333
+94: It is shrub: flowering season = march, name = tfadjfhnclmwggbhvfkrxwcg. CountExpr = 0.0416667
+95: It is shrub: flowering season = february, name = {fbdc}vqjbzxkbybg}xzcvvk. CountExpr = 0.0416667
+96: It is flower: flower type = wild, name = jwprzkhvkmp|h}kl}tzwxmtu. CountExpr = 0.0416667
+97: It is shrub: flowering season = april, name = {rvnzw~lr{rp{on}}qcsr|jf. CountExpr = 0.0416667
+98: It is shrub: flowering season = january, name = mfzzngkqxahxxpxbkvnrqvjn. CountExpr = 0.0416667
+99: It is shrub: flowering season = october, name = {~hjnsb|dpxwrxjjtffqb}bq. CountExpr = 0

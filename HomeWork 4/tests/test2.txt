@@ -1,0 +1,8 @@
+1 20 tree_aaaa
+1 21 tree_aabb
+2 1 shrub_aaaa
+2 2 shrub_aabb
+2 3 shrub_bbbb
+3 1 flower_aaaa
+3 2 flower_aabb
+3 3 flower_bbbb

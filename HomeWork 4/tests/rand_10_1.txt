@@ -1,0 +1,12 @@
+Filled container:
+Container contains 10 elements.
+0: It is flower: flower type = garden, name = ic~xksg|hgg}ocrmnalatp{|. CountExpr = 0.166667
+1: It is flower: flower type = garden, name = knyiv{~h}jfsqlyps{cabcdb. CountExpr = 0.166667
+2: It is shrub: flowering season = september, name = dkqnn~hnvenuywzmbhgqzykr. CountExpr = 0.166667
+3: It is shrub: flowering season = january, name = trojmr{zazdfi~k}xzyg{xem. CountExpr = 0.208333
+4: It is flower: flower type = wild, name = trsbg|pqkymfq~awa~c}p|on. CountExpr = 0.166667
+5: It is flower: flower type = wild, name = tjiduznvcd~snxwkcndynyse. CountExpr = 0.208333
+6: It is flower: flower type = garden, name = oxcyndciy}wpwzgkawycyh|k. CountExpr = 0.291667
+7: It is shrub: flowering season = september, name = jx}taovqtzsttil{a}zcur{p. CountExpr = 0.208333
+8: It is flower: flower type = domestic, name = nb{zkmqvman}laialje~jyym. CountExpr = 0.291667
+9: It is tree: age = 0, name = agsmltjhvnxnzpspsspk~yg}. CountExpr = 0.0833333
