@@ -1,38 +1,38 @@
 ; Disassembly of file: main.obj
-; Mon Nov 29 23:37:04 2021
+; Tue Nov 30 22:24:34 2021
 ; Type: ELF64
 ; Syntax: NASM
 ; Instruction set: AVX, x64
 
-default rel
 
-global Random: function
-global InF: function
-global InRndF: function
-global OutF: function
-global CountExprF: function
-global GetMonth: function
-global InS: function
-global InRndS: function
-global OutS: function
-global CountExprS: function
-global InT: function
-global InRndT: function
-global OutT: function
-global CountExprT: function
-global In: function
-global InRnd: function
-global Out: function
-global CountExpr: function
-global Init: function
-global InC: function
-global InRndC: function
-global OutC: function
-global swapElement: function
-global Sort: function
-global errMessage1: function
-global errMessage2: function
-global main: function
+
+global Random
+global InF
+global InRndF
+global OutF
+global CountExprF
+global GetMonth
+global InS
+global InRndS
+global OutS
+global CountExprS
+global InT
+global InRndT
+global OutT
+global CountExprT
+global In
+global InRnd
+global Out
+global CountExpr
+global Init
+global InC
+global InRndC
+global OutC
+global swapElement
+global Sort
+global errMessage1
+global errMessage2
+global main
 
 extern srand                                            ; near
 extern time                                             ; near
@@ -48,11 +48,11 @@ extern tolower                                          ; near
 extern fprintf                                          ; near
 extern fwrite                                           ; near
 extern __isoc99_fscanf                                  ; near
-extern _GLOBAL_OFFSET_TABLE_                            ; byte
+                            ; byte
 extern rand                                             ; near
 
 
-SECTION .text   align=1 execute                         ; section number 1, code
+SECTION .text                             ; section number 1, code
 
 Random: ; Function begin
         endbr64                                         ; 0000 _ F3: 0F 1E. FA
@@ -1958,7 +1958,7 @@ main:   ; Function begin
         mov     eax, 0                                  ; 19F9 _ B8, 00000000
         call    errMessage1                             ; 19FE _ E8, 00000000(PLT r)
         mov     eax, 1                                  ; 1A03 _ B8, 00000001
-        jmp     ?_109                                   ; 1A08 _ E9, 000001F0
+        jmp     ?_109                                   ; 1A08 _ E9, 000001F5
 
 ?_103:  lea     rdi, [rel ?_140]                        ; 1A0D _ 48: 8D. 3D, 00000000(rel)
         call    puts                                    ; 1A14 _ E8, 00000000(PLT r)
@@ -1988,7 +1988,7 @@ main:   ; Function begin
         mov     rax, qword [rbp-10H]                    ; 1A80 _ 48: 8B. 45, F0
         mov     rdi, rax                                ; 1A84 _ 48: 89. C7
         call    fclose                                  ; 1A87 _ E8, 00000000(PLT r)
-        jmp     ?_108                                   ; 1A8C _ E9, 000000AE
+        jmp     ?_108                                   ; 1A8C _ E9, 000000B3
 
 ?_104:  mov     rax, qword [rbp-124FB0H]                ; 1A91 _ 48: 8B. 85, FFEDB050
         add     rax, 8                                  ; 1A98 _ 48: 83. C0, 08
@@ -1997,7 +1997,7 @@ main:   ; Function begin
         mov     rdi, rax                                ; 1AA6 _ 48: 89. C7
         call    strcmp                                  ; 1AA9 _ E8, 00000000(PLT r)
         test    eax, eax                                ; 1AAE _ 85. C0
-        jnz     ?_107                                   ; 1AB0 _ 75, 79
+        jnz     ?_107                                   ; 1AB0 _ 75, 7E
         mov     rax, qword [rbp-124FB0H]                ; 1AB2 _ 48: 8B. 85, FFEDB050
         add     rax, 16                                 ; 1AB9 _ 48: 83. C0, 10
         mov     rax, qword [rax]                        ; 1ABD _ 48: 8B. 00
@@ -2015,77 +2015,78 @@ main:   ; Function begin
         mov     eax, 0                                  ; 1AEB _ B8, 00000000
         call    printf                                  ; 1AF0 _ E8, 00000000(PLT r)
         mov     eax, 3                                  ; 1AF5 _ B8, 00000003
-        jmp     ?_109                                   ; 1AFA _ E9, 000000FE
+        jmp     ?_109                                   ; 1AFA _ E9, 00000103
 
 ?_106:  mov     edi, 0                                  ; 1AFF _ BF, 00000000
-        call    time                                    ; 1B04 _ E8, 00000000(PLT r)
-        mov     edi, eax                                ; 1B09 _ 89. C7
-        mov     eax, 0                                  ; 1B0B _ B8, 00000000
-        call    srand                                   ; 1B10 _ E8, 00000000(PLT r)
-        mov     edx, dword [rbp-4H]                     ; 1B15 _ 8B. 55, FC
-        lea     rax, [rbp-124FA0H]                      ; 1B18 _ 48: 8D. 85, FFEDB060
-        mov     esi, edx                                ; 1B1F _ 89. D6
-        mov     rdi, rax                                ; 1B21 _ 48: 89. C7
-        call    InRndC                                  ; 1B24 _ E8, 00000000(PLT r)
-        jmp     ?_108                                   ; 1B29 _ EB, 14
+        mov     eax, 0                                  ; 1B04 _ B8, 00000000
+        call    time                                    ; 1B09 _ E8, 00000000(PLT r)
+        mov     edi, eax                                ; 1B0E _ 89. C7
+        mov     eax, 0                                  ; 1B10 _ B8, 00000000
+        call    srand                                   ; 1B15 _ E8, 00000000(PLT r)
+        mov     edx, dword [rbp-4H]                     ; 1B1A _ 8B. 55, FC
+        lea     rax, [rbp-124FA0H]                      ; 1B1D _ 48: 8D. 85, FFEDB060
+        mov     esi, edx                                ; 1B24 _ 89. D6
+        mov     rdi, rax                                ; 1B26 _ 48: 89. C7
+        call    InRndC                                  ; 1B29 _ E8, 00000000(PLT r)
+        jmp     ?_108                                   ; 1B2E _ EB, 14
 
-?_107:  mov     eax, 0                                  ; 1B2B _ B8, 00000000
-        call    errMessage2                             ; 1B30 _ E8, 00000000(PLT r)
-        mov     eax, 2                                  ; 1B35 _ B8, 00000002
-        jmp     ?_109                                   ; 1B3A _ E9, 000000BE
+?_107:  mov     eax, 0                                  ; 1B30 _ B8, 00000000
+        call    errMessage2                             ; 1B35 _ E8, 00000000(PLT r)
+        mov     eax, 2                                  ; 1B3A _ B8, 00000002
+        jmp     ?_109                                   ; 1B3F _ E9, 000000BE
 
-?_108:  lea     rdi, [rel ?_145]                        ; 1B3F _ 48: 8D. 3D, 00000000(rel)
-        call    puts                                    ; 1B46 _ E8, 00000000(PLT r)
-        mov     rax, qword [rbp-124FB0H]                ; 1B4B _ 48: 8B. 85, FFEDB050
-        add     rax, 24                                 ; 1B52 _ 48: 83. C0, 18
-        mov     rax, qword [rax]                        ; 1B56 _ 48: 8B. 00
-        lea     rsi, [rel ?_146]                        ; 1B59 _ 48: 8D. 35, 00000000(rel)
-        mov     rdi, rax                                ; 1B60 _ 48: 89. C7
-        call    fopen                                   ; 1B63 _ E8, 00000000(PLT r)
-        mov     qword [rbp-18H], rax                    ; 1B68 _ 48: 89. 45, E8
-        mov     rdx, qword [rbp-18H]                    ; 1B6C _ 48: 8B. 55, E8
-        lea     rax, [rbp-124FA0H]                      ; 1B70 _ 48: 8D. 85, FFEDB060
-        mov     rsi, rdx                                ; 1B77 _ 48: 89. D6
-        mov     rdi, rax                                ; 1B7A _ 48: 89. C7
-        call    OutC                                    ; 1B7D _ E8, 00000000(PLT r)
-        mov     rax, qword [rbp-18H]                    ; 1B82 _ 48: 8B. 45, E8
-        mov     rdi, rax                                ; 1B86 _ 48: 89. C7
-        call    fclose                                  ; 1B89 _ E8, 00000000(PLT r)
-        lea     rax, [rbp-124FA0H]                      ; 1B8E _ 48: 8D. 85, FFEDB060
-        mov     rdi, rax                                ; 1B95 _ 48: 89. C7
-        call    Sort                                    ; 1B98 _ E8, 00000000(PLT r)
-        lea     rdi, [rel ?_147]                        ; 1B9D _ 48: 8D. 3D, 00000000(rel)
-        call    puts                                    ; 1BA4 _ E8, 00000000(PLT r)
-        mov     rax, qword [rbp-124FB0H]                ; 1BA9 _ 48: 8B. 85, FFEDB050
-        add     rax, 32                                 ; 1BB0 _ 48: 83. C0, 20
-        mov     rax, qword [rax]                        ; 1BB4 _ 48: 8B. 00
-        lea     rsi, [rel ?_146]                        ; 1BB7 _ 48: 8D. 35, 00000000(rel)
-        mov     rdi, rax                                ; 1BBE _ 48: 89. C7
-        call    fopen                                   ; 1BC1 _ E8, 00000000(PLT r)
-        mov     qword [rbp-18H], rax                    ; 1BC6 _ 48: 89. 45, E8
-        mov     rdx, qword [rbp-18H]                    ; 1BCA _ 48: 8B. 55, E8
-        lea     rax, [rbp-124FA0H]                      ; 1BCE _ 48: 8D. 85, FFEDB060
-        mov     rsi, rdx                                ; 1BD5 _ 48: 89. D6
-        mov     rdi, rax                                ; 1BD8 _ 48: 89. C7
-        call    OutC                                    ; 1BDB _ E8, 00000000(PLT r)
-        mov     rax, qword [rbp-18H]                    ; 1BE0 _ 48: 8B. 45, E8
-        mov     rdi, rax                                ; 1BE4 _ 48: 89. C7
-        call    fclose                                  ; 1BE7 _ E8, 00000000(PLT r)
-        lea     rdi, [rel ?_148]                        ; 1BEC _ 48: 8D. 3D, 00000000(rel)
-        call    puts                                    ; 1BF3 _ E8, 00000000(PLT r)
-        mov     eax, 0                                  ; 1BF8 _ B8, 00000000
-?_109:  leave                                           ; 1BFD _ C9
-        ret                                             ; 1BFE _ C3
+?_108:  lea     rdi, [rel ?_145]                        ; 1B44 _ 48: 8D. 3D, 00000000(rel)
+        call    puts                                    ; 1B4B _ E8, 00000000(PLT r)
+        mov     rax, qword [rbp-124FB0H]                ; 1B50 _ 48: 8B. 85, FFEDB050
+        add     rax, 24                                 ; 1B57 _ 48: 83. C0, 18
+        mov     rax, qword [rax]                        ; 1B5B _ 48: 8B. 00
+        lea     rsi, [rel ?_146]                        ; 1B5E _ 48: 8D. 35, 00000000(rel)
+        mov     rdi, rax                                ; 1B65 _ 48: 89. C7
+        call    fopen                                   ; 1B68 _ E8, 00000000(PLT r)
+        mov     qword [rbp-18H], rax                    ; 1B6D _ 48: 89. 45, E8
+        mov     rdx, qword [rbp-18H]                    ; 1B71 _ 48: 8B. 55, E8
+        lea     rax, [rbp-124FA0H]                      ; 1B75 _ 48: 8D. 85, FFEDB060
+        mov     rsi, rdx                                ; 1B7C _ 48: 89. D6
+        mov     rdi, rax                                ; 1B7F _ 48: 89. C7
+        call    OutC                                    ; 1B82 _ E8, 00000000(PLT r)
+        mov     rax, qword [rbp-18H]                    ; 1B87 _ 48: 8B. 45, E8
+        mov     rdi, rax                                ; 1B8B _ 48: 89. C7
+        call    fclose                                  ; 1B8E _ E8, 00000000(PLT r)
+        lea     rax, [rbp-124FA0H]                      ; 1B93 _ 48: 8D. 85, FFEDB060
+        mov     rdi, rax                                ; 1B9A _ 48: 89. C7
+        call    Sort                                    ; 1B9D _ E8, 00000000(PLT r)
+        lea     rdi, [rel ?_147]                        ; 1BA2 _ 48: 8D. 3D, 00000000(rel)
+        call    puts                                    ; 1BA9 _ E8, 00000000(PLT r)
+        mov     rax, qword [rbp-124FB0H]                ; 1BAE _ 48: 8B. 85, FFEDB050
+        add     rax, 32                                 ; 1BB5 _ 48: 83. C0, 20
+        mov     rax, qword [rax]                        ; 1BB9 _ 48: 8B. 00
+        lea     rsi, [rel ?_146]                        ; 1BBC _ 48: 8D. 35, 00000000(rel)
+        mov     rdi, rax                                ; 1BC3 _ 48: 89. C7
+        call    fopen                                   ; 1BC6 _ E8, 00000000(PLT r)
+        mov     qword [rbp-18H], rax                    ; 1BCB _ 48: 89. 45, E8
+        mov     rdx, qword [rbp-18H]                    ; 1BCF _ 48: 8B. 55, E8
+        lea     rax, [rbp-124FA0H]                      ; 1BD3 _ 48: 8D. 85, FFEDB060
+        mov     rsi, rdx                                ; 1BDA _ 48: 89. D6
+        mov     rdi, rax                                ; 1BDD _ 48: 89. C7
+        call    OutC                                    ; 1BE0 _ E8, 00000000(PLT r)
+        mov     rax, qword [rbp-18H]                    ; 1BE5 _ 48: 8B. 45, E8
+        mov     rdi, rax                                ; 1BE9 _ 48: 89. C7
+        call    fclose                                  ; 1BEC _ E8, 00000000(PLT r)
+        lea     rdi, [rel ?_148]                        ; 1BF1 _ 48: 8D. 3D, 00000000(rel)
+        call    puts                                    ; 1BF8 _ E8, 00000000(PLT r)
+        mov     eax, 0                                  ; 1BFD _ B8, 00000000
+?_109:  leave                                           ; 1C02 _ C9
+        ret                                             ; 1C03 _ C3
 ; main End of function
 
 
-SECTION .data   align=1 noexecute                       ; section number 2, data
+SECTION .data                           ; section number 2, data
 
 
-SECTION .bss    align=1 noexecute                       ; section number 3, bss
+SECTION .bss                            ; section number 3, bss
 
 
-SECTION .rodata align=8 noexecute                       ; section number 4, const
+SECTION .rodata                         ; section number 4, const
 
 ?_110:                                                  ; byte
         db 25H, 64H, 20H, 25H, 73H, 00H                 ; 0000 _ %d %s.
@@ -2281,13 +2282,5 @@ SECTION .rodata align=8 noexecute                       ; section number 4, cons
         db 53H, 74H, 6FH, 70H, 00H, 00H, 00H, 00H       ; 02F8 _ Stop....
 
 ?_149:  dq 0000000000000000H                            ; 0300 _ 0000000000000000 
-
-
-SECTION .note.gnu.property align=8 noexecute            ; section number 5, const
-
-        db 04H, 00H, 00H, 00H, 10H, 00H, 00H, 00H       ; 0000 _ ........
-        db 05H, 00H, 00H, 00H, 47H, 4EH, 55H, 00H       ; 0008 _ ....GNU.
-        db 02H, 00H, 00H, 0C0H, 04H, 00H, 00H, 00H      ; 0010 _ ........
-        db 03H, 00H, 00H, 00H, 00H, 00H, 00H, 00H       ; 0018 _ ........
 
 
