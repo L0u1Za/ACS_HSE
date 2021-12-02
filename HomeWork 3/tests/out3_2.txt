@@ -1,0 +1,10 @@
+Container stores 9 plants:
+0: Tree: name = tree_aioeuy, age = 1, CountExpr = 0.6363636363636364
+1: Flower: name = flower_aioeuy, flower type = INVALID_PLACE_NUMBER, CountExpr = 0.5384615384615384
+2: Shrub: name = shrub_aioeuy, flowering month = OCTOBER, CountExpr = 0.5
+3: Shrub: name = shrub_aboba, flowering month = INVALID_MONTH_NUMBER, CountExpr = 0.36363636363636365
+4: Flower: name = flower_aioeuymqwrtpsdfghjklzxcvbn, flower type = WILD, CountExpr = 0.21212121212121213
+5: Shrub: name = shrub_aioeuymqwrtpsdfghjklzxcvbn, flowering month = NOVEMBER, CountExpr = 0.1875
+6: Tree: name = tree_mqwrtpsdfghjklzxcvbn, age = 10000, CountExpr = 0.08
+7: Shrub: name = shrub_mqwrtpsdfghjklzxcvbn, flowering month = DECEMBER, CountExpr = 0.038461538461538464
+8: Flower: name = flower_mqwrtpsdfghjklzxcvbn, flower type = INVALID_PLACE_NUMBER, CountExpr = 0.07407407407407407

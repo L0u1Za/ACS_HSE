@@ -1,0 +1,9 @@
+1 tree_aioeuy 1
+1 tree_mqwrtpsdfghjklzxcvbn 10000
+2 shrub_aioeuy 10
+2 shrub_aioeuymqwrtpsdfghjklzxcvbn 11
+2 shrub_mqwrtpsdfghjklzxcvbn 12
+2 shrub_aboba 82
+3 flower_aioeuymqwrtpsdfghjklzxcvbn 3
+3 flower_mqwrtpsdfghjklzxcvbn 12
+3 flower_aioeuy 82

@@ -1,0 +1,11 @@
+Container stores 10 plants:
+0: Tree: name = viMmrOrtUCpUuPvTQhem, age = 24, CountExpr = 0.3
+1: Tree: name = BAovCQxAWfhGPeNlXOVz, age = 26, CountExpr = 0.25
+2: Shrub: name = QqTtgkFuyqAaHnlABsoL, flowering month = NOVEMBER, CountExpr = 0.25
+3: Tree: name = BCYbBqAgSyjoicZOnBtj, age = 6, CountExpr = 0.2
+4: Flower: name = SlJTcRDMEUWuqMfuhVVf, flower type = GARDEN, CountExpr = 0.2
+5: Tree: name = QMaYyJJuhpBtpzNqkeVC, age = 14, CountExpr = 0.15
+6: Tree: name = gVGKhjtOrCcyDssWAClY, age = 11, CountExpr = 0.1
+7: Flower: name = nrSkmXpiRDEHdBgWNdQb, flower type = DOMESTIC, CountExpr = 0.1
+8: Tree: name = FnyUSNjKtJfUDrpCYVyH, age = 15, CountExpr = 0.1
+9: Tree: name = xrwmKunhvIKHxgjCMtUf, age = 17, CountExpr = 0.15
