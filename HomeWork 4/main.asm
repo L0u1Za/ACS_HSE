@@ -1,10 +1,3 @@
-; Disassembly of file: main.obj
-; Tue Nov 30 22:24:34 2021
-; Type: ELF64
-; Syntax: NASM
-; Instruction set: AVX, x64
-
-
 
 global Random
 global InF
