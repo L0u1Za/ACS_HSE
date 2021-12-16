@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/l0u1za/ACS_HSE/hw5/build",
+  "command": "/bin/g++-9    -pthread -g -std=gnu++17 -o CMakeFiles/HomeWork5.dir/main.cpp.o -c /home/l0u1za/ACS_HSE/hw5/main.cpp",
+  "file": "/home/l0u1za/ACS_HSE/hw5/main.cpp"
+}
+]
